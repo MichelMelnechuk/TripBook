@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		452131921B05D0270082D154 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 452131911B05D0270082D154 /* main.m */; };
+		452131951B05D0270082D154 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 452131941B05D0270082D154 /* AppDelegate.m */; };
+		4521319B1B05D0270082D154 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 452131991B05D0270082D154 /* Main.storyboard */; };
+		4521319D1B05D0270082D154 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4521319C1B05D0270082D154 /* Images.xcassets */; };
+		452131A01B05D0270082D154 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4521319E1B05D0270082D154 /* LaunchScreen.xib */; };
+		452131AC1B05D0270082D154 /* TripBookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 452131AB1B05D0270082D154 /* TripBookTests.m */; };
+		452131B71B05D06D0082D154 /* TripTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 452131B61B05D06D0082D154 /* TripTableViewController.m */; };
+		452131BD1B05D83F0082D154 /* TripTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 452131BC1B05D83F0082D154 /* TripTableViewCell.m */; };
+		452131C01B05DAE80082D154 /* ChangeTripViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 452131BF1B05DAE80082D154 /* ChangeTripViewController.m */; };
+		452131C31B05DB860082D154 /* Trip.m in Sources */ = {isa = PBXBuildFile; fileRef = 452131C21B05DB860082D154 /* Trip.m */; };
+		4528B7911B0624E6002F08DA /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4528B7901B0624E6002F08DA /* AudioToolbox.framework */; };
+		4528B7931B0624F4002F08DA /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4528B7921B0624F4002F08DA /* CFNetwork.framework */; };
+		4528B7961B062585002F08DA /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4528B7941B062585002F08DA /* Bolts.framework */; };
+		4528B7971B062585002F08DA /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4528B7951B062585002F08DA /* Parse.framework */; };
+		4528B7991B0625F1002F08DA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4528B7981B0625F1002F08DA /* CoreGraphics.framework */; };
+		4528B79B1B0625FB002F08DA /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4528B79A1B0625FB002F08DA /* CoreLocation.framework */; };
+		4528B79D1B062607002F08DA /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4528B79C1B062607002F08DA /* MobileCoreServices.framework */; };
+		4528B79F1B062613002F08DA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4528B79E1B062613002F08DA /* QuartzCore.framework */; };
+		4528B7A11B06261E002F08DA /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4528B7A01B06261E002F08DA /* Security.framework */; };
+		4528B7A31B062629002F08DA /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4528B7A21B062629002F08DA /* StoreKit.framework */; };
+		4528B7A51B062632002F08DA /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4528B7A41B062632002F08DA /* SystemConfiguration.framework */; };
+		4528B7A71B06264A002F08DA /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4528B7A61B06264A002F08DA /* libz.dylib */; };
+		4528B7A91B062658002F08DA /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4528B7A81B062658002F08DA /* libsqlite3.dylib */; };
+		4528B7AB1B062661002F08DA /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4528B7AA1B062661002F08DA /* Accounts.framework */; };
+		4528B7AD1B06266E002F08DA /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4528B7AC1B06266E002F08DA /* Social.framework */; };
+		4528B7B11B062844002F08DA /* ParseWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4528B7B01B062844002F08DA /* ParseWrapper.m */; };
+		45E20D8A1B0790B8006950C6 /* ParseWrapperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E20D891B0790B8006950C6 /* ParseWrapperTests.m */; };
+		45F9D7B61B06420200F12305 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45F9D7B51B06420200F12305 /* LoginViewController.m */; };
+		45F9D7B91B06429600F12305 /* FirstLaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45F9D7B81B06429600F12305 /* FirstLaunchViewController.m */; };
+		45F9D7BC1B06476200F12305 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 45F9D7BB1B06476200F12305 /* User.m */; };
+		45F9D7BF1B06566000F12305 /* TripBookButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 45F9D7BE1B06566000F12305 /* TripBookButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		452131A61B05D0270082D154 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 452131841B05D0270082D154 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4521318B1B05D0270082D154;
+			remoteInfo = TripBook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4521318C1B05D0270082D154 /* TripBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TripBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		452131901B05D0270082D154 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		452131911B05D0270082D154 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		452131931B05D0270082D154 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		452131941B05D0270082D154 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4521319A1B05D0270082D154 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4521319C1B05D0270082D154 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4521319F1B05D0270082D154 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		452131A51B05D0270082D154 /* TripBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TripBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		452131AA1B05D0270082D154 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		452131AB1B05D0270082D154 /* TripBookTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TripBookTests.m; sourceTree = "<group>"; };
+		452131B51B05D06D0082D154 /* TripTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TripTableViewController.h; sourceTree = "<group>"; };
+		452131B61B05D06D0082D154 /* TripTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TripTableViewController.m; sourceTree = "<group>"; };
+		452131BB1B05D83F0082D154 /* TripTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TripTableViewCell.h; sourceTree = "<group>"; };
+		452131BC1B05D83F0082D154 /* TripTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TripTableViewCell.m; sourceTree = "<group>"; };
+		452131BE1B05DAE80082D154 /* ChangeTripViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChangeTripViewController.h; sourceTree = "<group>"; };
+		452131BF1B05DAE80082D154 /* ChangeTripViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChangeTripViewController.m; sourceTree = "<group>"; };
+		452131C11B05DB860082D154 /* Trip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Trip.h; sourceTree = "<group>"; };
+		452131C21B05DB860082D154 /* Trip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Trip.m; sourceTree = "<group>"; };
+		4528B7901B0624E6002F08DA /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		4528B7921B0624F4002F08DA /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		4528B7941B062585002F08DA /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "../../../Downloads/parse-library-1.7.2/Bolts.framework"; sourceTree = "<group>"; };
+		4528B7951B062585002F08DA /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = "../../../Downloads/parse-library-1.7.2/Parse.framework"; sourceTree = "<group>"; };
+		4528B7981B0625F1002F08DA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4528B79A1B0625FB002F08DA /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		4528B79C1B062607002F08DA /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		4528B79E1B062613002F08DA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		4528B7A01B06261E002F08DA /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		4528B7A21B062629002F08DA /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		4528B7A41B062632002F08DA /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		4528B7A61B06264A002F08DA /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		4528B7A81B062658002F08DA /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		4528B7AA1B062661002F08DA /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		4528B7AC1B06266E002F08DA /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		4528B7AF1B062844002F08DA /* ParseWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParseWrapper.h; sourceTree = "<group>"; };
+		4528B7B01B062844002F08DA /* ParseWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParseWrapper.m; sourceTree = "<group>"; };
+		45E20D891B0790B8006950C6 /* ParseWrapperTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParseWrapperTests.m; sourceTree = "<group>"; };
+		45F9D7B41B06420200F12305 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		45F9D7B51B06420200F12305 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		45F9D7B71B06429600F12305 /* FirstLaunchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FirstLaunchViewController.h; path = TripBook/FirstLaunchViewController.h; sourceTree = "<group>"; };
+		45F9D7B81B06429600F12305 /* FirstLaunchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FirstLaunchViewController.m; path = TripBook/FirstLaunchViewController.m; sourceTree = "<group>"; };
+		45F9D7BA1B06476200F12305 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		45F9D7BB1B06476200F12305 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		45F9D7BD1B06566000F12305 /* TripBookButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TripBookButton.h; sourceTree = "<group>"; };
+		45F9D7BE1B06566000F12305 /* TripBookButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TripBookButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		452131891B05D0270082D154 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4528B7AD1B06266E002F08DA /* Social.framework in Frameworks */,
+				4528B7AB1B062661002F08DA /* Accounts.framework in Frameworks */,
+				4528B7A91B062658002F08DA /* libsqlite3.dylib in Frameworks */,
+				4528B7A71B06264A002F08DA /* libz.dylib in Frameworks */,
+				4528B7A51B062632002F08DA /* SystemConfiguration.framework in Frameworks */,
+				4528B7A31B062629002F08DA /* StoreKit.framework in Frameworks */,
+				4528B7A11B06261E002F08DA /* Security.framework in Frameworks */,
+				4528B79F1B062613002F08DA /* QuartzCore.framework in Frameworks */,
+				4528B79D1B062607002F08DA /* MobileCoreServices.framework in Frameworks */,
+				4528B79B1B0625FB002F08DA /* CoreLocation.framework in Frameworks */,
+				4528B7991B0625F1002F08DA /* CoreGraphics.framework in Frameworks */,
+				4528B7961B062585002F08DA /* Bolts.framework in Frameworks */,
+				4528B7931B0624F4002F08DA /* CFNetwork.framework in Frameworks */,
+				4528B7971B062585002F08DA /* Parse.framework in Frameworks */,
+				4528B7911B0624E6002F08DA /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		452131A21B05D0270082D154 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		452131831B05D0270082D154 = {
+			isa = PBXGroup;
+			children = (
+				45F9D7BD1B06566000F12305 /* TripBookButton.h */,
+				45F9D7BE1B06566000F12305 /* TripBookButton.m */,
+				45F9D7BA1B06476200F12305 /* User.h */,
+				45F9D7BB1B06476200F12305 /* User.m */,
+				45F9D7B71B06429600F12305 /* FirstLaunchViewController.h */,
+				45F9D7B81B06429600F12305 /* FirstLaunchViewController.m */,
+				45F9D7B41B06420200F12305 /* LoginViewController.h */,
+				45F9D7B51B06420200F12305 /* LoginViewController.m */,
+				4528B7AF1B062844002F08DA /* ParseWrapper.h */,
+				4528B7B01B062844002F08DA /* ParseWrapper.m */,
+				452131C11B05DB860082D154 /* Trip.h */,
+				452131C21B05DB860082D154 /* Trip.m */,
+				452131BE1B05DAE80082D154 /* ChangeTripViewController.h */,
+				452131BF1B05DAE80082D154 /* ChangeTripViewController.m */,
+				452131BB1B05D83F0082D154 /* TripTableViewCell.h */,
+				452131BC1B05D83F0082D154 /* TripTableViewCell.m */,
+				452131B51B05D06D0082D154 /* TripTableViewController.h */,
+				452131B61B05D06D0082D154 /* TripTableViewController.m */,
+				4521318E1B05D0270082D154 /* TripBook */,
+				452131A81B05D0270082D154 /* TripBookTests */,
+				4521318D1B05D0270082D154 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4521318D1B05D0270082D154 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4521318C1B05D0270082D154 /* TripBook.app */,
+				452131A51B05D0270082D154 /* TripBookTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4521318E1B05D0270082D154 /* TripBook */ = {
+			isa = PBXGroup;
+			children = (
+				452131931B05D0270082D154 /* AppDelegate.h */,
+				452131941B05D0270082D154 /* AppDelegate.m */,
+				452131991B05D0270082D154 /* Main.storyboard */,
+				45E20D891B0790B8006950C6 /* ParseWrapperTests.m */,
+				4521319C1B05D0270082D154 /* Images.xcassets */,
+				4521319E1B05D0270082D154 /* LaunchScreen.xib */,
+				4521318F1B05D0270082D154 /* Supporting Files */,
+			);
+			path = TripBook;
+			sourceTree = "<group>";
+		};
+		4521318F1B05D0270082D154 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4528B7AE1B062730002F08DA /* frameworks */,
+				452131901B05D0270082D154 /* Info.plist */,
+				452131911B05D0270082D154 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		452131A81B05D0270082D154 /* TripBookTests */ = {
+			isa = PBXGroup;
+			children = (
+				452131AB1B05D0270082D154 /* TripBookTests.m */,
+				452131A91B05D0270082D154 /* Supporting Files */,
+			);
+			path = TripBookTests;
+			sourceTree = "<group>";
+		};
+		452131A91B05D0270082D154 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				452131AA1B05D0270082D154 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4528B7AE1B062730002F08DA /* frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4528B7AC1B06266E002F08DA /* Social.framework */,
+				4528B7AA1B062661002F08DA /* Accounts.framework */,
+				4528B7A81B062658002F08DA /* libsqlite3.dylib */,
+				4528B7A61B06264A002F08DA /* libz.dylib */,
+				4528B7A41B062632002F08DA /* SystemConfiguration.framework */,
+				4528B7A21B062629002F08DA /* StoreKit.framework */,
+				4528B7A01B06261E002F08DA /* Security.framework */,
+				4528B79E1B062613002F08DA /* QuartzCore.framework */,
+				4528B79C1B062607002F08DA /* MobileCoreServices.framework */,
+				4528B79A1B0625FB002F08DA /* CoreLocation.framework */,
+				4528B7981B0625F1002F08DA /* CoreGraphics.framework */,
+				4528B7921B0624F4002F08DA /* CFNetwork.framework */,
+				4528B7901B0624E6002F08DA /* AudioToolbox.framework */,
+				4528B7941B062585002F08DA /* Bolts.framework */,
+				4528B7951B062585002F08DA /* Parse.framework */,
+			);
+			name = frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4521318B1B05D0270082D154 /* TripBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 452131AF1B05D0270082D154 /* Build configuration list for PBXNativeTarget "TripBook" */;
+			buildPhases = (
+				452131881B05D0270082D154 /* Sources */,
+				452131891B05D0270082D154 /* Frameworks */,
+				4521318A1B05D0270082D154 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TripBook;
+			productName = TripBook;
+			productReference = 4521318C1B05D0270082D154 /* TripBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		452131A41B05D0270082D154 /* TripBookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 452131B21B05D0270082D154 /* Build configuration list for PBXNativeTarget "TripBookTests" */;
+			buildPhases = (
+				452131A11B05D0270082D154 /* Sources */,
+				452131A21B05D0270082D154 /* Frameworks */,
+				452131A31B05D0270082D154 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				452131A71B05D0270082D154 /* PBXTargetDependency */,
+			);
+			name = TripBookTests;
+			productName = TripBookTests;
+			productReference = 452131A51B05D0270082D154 /* TripBookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		452131841B05D0270082D154 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = Air;
+				TargetAttributes = {
+					4521318B1B05D0270082D154 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					452131A41B05D0270082D154 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 4521318B1B05D0270082D154;
+					};
+				};
+			};
+			buildConfigurationList = 452131871B05D0270082D154 /* Build configuration list for PBXProject "TripBook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 452131831B05D0270082D154;
+			productRefGroup = 4521318D1B05D0270082D154 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4521318B1B05D0270082D154 /* TripBook */,
+				452131A41B05D0270082D154 /* TripBookTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4521318A1B05D0270082D154 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4521319B1B05D0270082D154 /* Main.storyboard in Resources */,
+				452131A01B05D0270082D154 /* LaunchScreen.xib in Resources */,
+				4521319D1B05D0270082D154 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		452131A31B05D0270082D154 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		452131881B05D0270082D154 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45F9D7BC1B06476200F12305 /* User.m in Sources */,
+				45F9D7B61B06420200F12305 /* LoginViewController.m in Sources */,
+				45F9D7BF1B06566000F12305 /* TripBookButton.m in Sources */,
+				45F9D7B91B06429600F12305 /* FirstLaunchViewController.m in Sources */,
+				452131C01B05DAE80082D154 /* ChangeTripViewController.m in Sources */,
+				452131951B05D0270082D154 /* AppDelegate.m in Sources */,
+				452131C31B05DB860082D154 /* Trip.m in Sources */,
+				452131B71B05D06D0082D154 /* TripTableViewController.m in Sources */,
+				4528B7B11B062844002F08DA /* ParseWrapper.m in Sources */,
+				452131921B05D0270082D154 /* main.m in Sources */,
+				452131BD1B05D83F0082D154 /* TripTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		452131A11B05D0270082D154 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				452131AC1B05D0270082D154 /* TripBookTests.m in Sources */,
+				45E20D8A1B0790B8006950C6 /* ParseWrapperTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		452131A71B05D0270082D154 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4521318B1B05D0270082D154 /* TripBook */;
+			targetProxy = 452131A61B05D0270082D154 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		452131991B05D0270082D154 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4521319A1B05D0270082D154 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4521319E1B05D0270082D154 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4521319F1B05D0270082D154 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		452131AD1B05D0270082D154 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		452131AE1B05D0270082D154 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		452131B01B05D0270082D154 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TripBook",
+					"/Users/air/Downloads/parse-library-1.7.2",
+				);
+				INFOPLIST_FILE = TripBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		452131B11B05D0270082D154 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TripBook",
+					"/Users/air/Downloads/parse-library-1.7.2",
+				);
+				INFOPLIST_FILE = TripBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		452131B31B05D0270082D154 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TripBookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TripBook.app/TripBook";
+			};
+			name = Debug;
+		};
+		452131B41B05D0270082D154 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TripBookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TripBook.app/TripBook";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		452131871B05D0270082D154 /* Build configuration list for PBXProject "TripBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				452131AD1B05D0270082D154 /* Debug */,
+				452131AE1B05D0270082D154 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		452131AF1B05D0270082D154 /* Build configuration list for PBXNativeTarget "TripBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				452131B01B05D0270082D154 /* Debug */,
+				452131B11B05D0270082D154 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		452131B21B05D0270082D154 /* Build configuration list for PBXNativeTarget "TripBookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				452131B31B05D0270082D154 /* Debug */,
+				452131B41B05D0270082D154 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 452131841B05D0270082D154 /* Project object */;
+}
